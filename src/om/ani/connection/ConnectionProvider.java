@@ -8,8 +8,8 @@ public class ConnectionProvider
 {
 	private static String driver = "oracle.jdbc.driver.OracleDriver";
 	private static String Url =  "jdbc:oracle:thin:@localhost:1521:orcl";
-	private static String DbUname = "MYDB9AM";
-	private static String DbPwd = "MYDB9AM";
+	private static String DbUname = "username";
+	private static String DbPwd = "password";
 	
 	private static Connection con = null;
 	
